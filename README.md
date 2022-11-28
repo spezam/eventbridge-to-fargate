@@ -23,5 +23,5 @@ fargate run logs:
 <img src="assets/fargate-logs.png">
 
 downsides:
-- slow Fargate task provision
+- slow Fargate task provision for big containers
 - no GPU support yet :/
