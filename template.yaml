@@ -54,7 +54,7 @@ Resources:
                       },
                       {
                         "name": "EVENT_DETAIL",
-                        "value": "detail - not working"
+                        "value": <detail>
                       },
                       {
                         "name": "EVENT_DETAIL_TYPE",

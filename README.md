@@ -16,5 +16,9 @@ sam build
 sam deploy
 ```
 
+event:
+<img src="assets/event.png">
+
 downsides:
 - slow Fargate task provision
+- no GPU support yet :/
