@@ -105,6 +105,8 @@ Resources:
       TaskRoleArn: !GetAtt FargatePocTaskRole.Arn
       Cpu: "256"
       Memory: "512"
+      RuntimePlatform:
+        CpuArchitecture: "ARM64"
       Family: eventbridge-fargate-poc
       ContainerDefinitions:
         - Name: eventbridge-fargate-poc
