@@ -34,9 +34,8 @@ Resources:
             InputPathsMap:
               bucket_name: "$.detail.bucket.name"
               object_key: "$.detail.object.key"
-              objectversionid: "$.detail.object.version-id"
+              objectversionid: $.detail.object.version-id
               source: $.source
-              detail: $.detail
               detailType: $.detail-type
             InputTemplate: |
               {
@@ -51,10 +50,6 @@ Resources:
                       {
                         "name": "S3_OBJECT_KEY",
                         "value": <object_key>
-                      },
-                      {
-                        "name": "EVENT_DETAIL",
-                        "value": <detail>
                       },
                       {
                         "name": "EVENT_DETAIL_TYPE",

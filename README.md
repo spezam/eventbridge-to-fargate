@@ -19,6 +19,9 @@ sam deploy
 event:
 <img src="assets/event.png">
 
+fargate run logs:
+<img src="assets/fargate-logs.png">
+
 downsides:
 - slow Fargate task provision
 - no GPU support yet :/
