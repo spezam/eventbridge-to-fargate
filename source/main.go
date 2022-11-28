@@ -7,9 +7,9 @@ import (
 )
 
 type event struct {
-	Source      string `env:"EVENT_SOURCE,required"`
-	Detail      string `env:"EVENT_DETAIL,required"`
-	DetailType  string `env:"EVENT_DETAIL_TYPE,required"`
+	Source      string `env:"EVENT_SOURCE"`
+	Detail      string `env:"EVENT_DETAIL"`
+	DetailType  string `env:"EVENT_DETAIL_TYPE"`
 	BucketName  string `env:"BUCKET_NAME"`
 	S3ObjectKey string `env:"S3_OBJECT_KEY"`
 }

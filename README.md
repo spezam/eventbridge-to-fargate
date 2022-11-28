@@ -17,4 +17,4 @@ sam deploy
 ```
 
 downsides:
-- slow start
+- slow Fargate task provision
